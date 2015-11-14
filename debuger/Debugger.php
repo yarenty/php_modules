@@ -6,15 +6,19 @@
  * Date: 14/11/2015
  * Time: 18:28
  */
-class Debugger {
-	var $info = "";
-	function add($i){
-		$this->info .= $i."<br/>";
-	}
+class Debugger
+{
+    var $info = "";
 
-	function get(){
-		return $this->info;
-	}
+    function add($i)
+    {
+        $this->info .= $i . "<br/>";
+    }
+
+    function get()
+    {
+        return $this->info;
+    }
 }
 
 $d = new Debugger();
@@ -23,9 +27,10 @@ $d = new Debugger();
  * If you want to add some text to be displayed in debug - use this one.
  * @param $txt
  */
-function debug($txt) {
-	global $d;
-	$d->add($txt);
+function debug($txt)
+{
+    global $d;
+    $d->add($txt);
 }
 
 /**
@@ -33,16 +38,18 @@ function debug($txt) {
  * Usage:
  * <pre> printDebug(); </pre>
  */
-function printDebug() {
-	global $d;
-	echo $d->get();
+function printDebug()
+{
+    global $d;
+    echo $d->get();
 }
 
 /**
  * Gets debug string.
  * @return string
  */
-function getDebugInfo() {
-	global $d;
-	return $d->get();
+function getDebugInfo()
+{
+    global $d;
+    return $d->get();
 }

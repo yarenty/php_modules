@@ -8,7 +8,7 @@
  */
 class db
 {
-    private $iniFile ="local.ini";
+    private $iniFile = "local.ini";
     var $prefix = "";
     var $connection = null;
 
