@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Created by IntelliJ IDEA.
+ * Created by Scycorp Ltd.
  * User: yarenty
  * Date: 14/11/2015
  * Time: 12:48
