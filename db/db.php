@@ -30,7 +30,6 @@ class db
         $result = $this->connection->query($sql);
         if ($result != false) {
             $id = $this->connection->insert_id;
-            mysqli_free_result($result);
             return $id;
         }
         return null;
