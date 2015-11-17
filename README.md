@@ -2,7 +2,7 @@
 
 Easy PHP modules & classes.
 
-Instead everytime reinvent the "PHP wheel", here I'll keep all basic classes
+Instead every time reinvent the "PHP wheel", here I'll keep all basic classes
 for obvius things like - access to db, convert objects/arrays to JSON, ajax interaction, etc.
 
 ## Current modules
@@ -13,4 +13,8 @@ for obvius things like - access to db, convert objects/arrays to JSON, ajax inte
 ## TODO
 - more  ;-)
 
+## RUN
 
+* npm install
+* bower install
+* grunt
