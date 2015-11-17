@@ -1,0 +1,14 @@
+{
+  "name": "php_modules",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yarenty/php_modules"
+  },
+  "private": true,
+  "dependencies": {
+    "requirejs": "2.1.20",
+    "bootstrap": "latest",
+    "font-awesome": "~4.3.0"
+  }
+}
